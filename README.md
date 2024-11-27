@@ -43,3 +43,10 @@ During the development of Fasal, we encountered several challenges:
 - **Model Accuracy:** Achieving high accuracy in crop price prediction required fine-tuning and experimenting with different machine learning algorithms.
 
 ---
+![Screenshot (62)](https://github.com/user-attachments/assets/9180a88c-26e6-4651-8158-60c2d4060463)
+![Screenshot (20)](https://github.com/user-attachments/assets/d5db55b1-a6eb-4792-8769-99769fa50916)
+![Screenshot (19)](https://github.com/user-attachments/assets/464beb34-7c47-4130-92f9-20357498b90b)
+![Screenshot (18)](https://github.com/user-attachments/assets/bcf81ee0-d6ce-4818-8d83-19a52184f4ad)
+![Screenshot (17)](https://github.com/user-attachments/assets/27732a1c-b7c8-404c-824b-e045db526c11)
+![Screenshot (56)](https://github.com/user-attachments/assets/0396aa26-1f0b-49fc-afb5-af4c6016447c)
+
