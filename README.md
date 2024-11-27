@@ -1,70 +1,45 @@
-# Getting Started with Create React App
+# Fasal - Crop Price Prediction and Crop Suggestion System
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Fasal is a platform designed to empower farmers with accurate crop price predictions and personalized crop suggestions based on their soil and environmental conditions. Through machine learning algorithms, it helps farmers make informed decisions, increasing their productivity and reducing risks in the agricultural industry.
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## Problem Solved
 
-### `npm start`
+Farmers often face challenges in predicting crop prices and selecting the right crops to grow. Without proper market analysis, they can end up with less profitable crops or get poor returns on their harvest. Additionally, many farmers struggle with understanding what crops to sow, when to sow, and what would be the best output for their land.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+**Fasal solves these problems by:**
+- Predicting crop prices using a machine learning model that analyzes market trends.
+- Suggesting the best crops based on soil type, water availability, and other factors using a neural network model.
+- Helping farmers make data-driven decisions for better yield and profit.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+---
 
-### `npm test`
+## Features
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- **Crop Price Prediction:** Predict accurate crop prices using a machine learning model.
+- **Crop Suggestion System:** Recommend the best crops to grow based on soil, water, and other factors.
+- **Multilingual Support:** Integrated with Google Translate API for language translation.
+- **Responsive Design:** Built using Tailwind CSS for a modern, responsive interface.
+- **Bot Integration:** Use BotApi to access crop suggestions and price predictions via a chatbot.
 
-### `npm run build`
+---
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Technologies Used
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- **Flask**: Backend server for handling API requests.
+- **Google Translate API**: For multilingual support and translations.
+- **Tailwind CSS**: For styling the frontend with a clean and modern design.
+- **FastAPI**: For efficient API calls and handling.
+- **React.js**: Frontend framework to build dynamic user interfaces.
+- **BotApi**: To enable chatbot integration for easy interaction.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+---
 
-### `npm run eject`
+## Challenges Faced
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+During the development of Fasal, we encountered several challenges:
+- **Data Gathering:** Reliable datasets for training machine learning models were scarce. We overcame this by scraping data from government websites and other trusted sources.
+- **Model Accuracy:** Achieving high accuracy in crop price prediction required fine-tuning and experimenting with different machine learning algorithms.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+---
